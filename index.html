@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ditt Navn — Fotografi</title>
+<meta name="description" content="Fotografiportefølje til Ditt Navn. Portrett, natur, arkitektur og reise.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="header">
+  <nav class="nav nav-left">
+    <a href="#top">Hjem</a>
+    <a href="#galleri">Galleri</a>
+    <a href="#om">Info</a>
+  </nav>
+  <a href="#top" class="logo">Ditt_Studio</a>
+  <nav class="nav nav-right" id="nav">
+    <a href="#galleri">Portefølje</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Åpne meny" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#top">Hjem</a>
+  <a href="#galleri">Galleri</a>
+  <a href="#om">Info</a>
+  <a href="#kontakt">Kontakt</a>
+</div>
+
+<section class="hero-grid" id="top">
+  <div class="hero-grid-img" style="background-image: url('images/gallery/photo-1.svg');"></div>
+  <div class="hero-grid-img" style="background-image: url('images/gallery/photo-7.svg');"></div>
+  <div class="hero-grid-img" style="background-image: url('images/gallery/photo-4.svg');"></div>
+</section>
+
+<div class="dot-divider"><span></span></div>
+
+<section class="hero-text">
+  <p class="hero-eyebrow">Basert i Norge, tilgjengelig for oppdrag overalt</p>
+  <h1>Ekte, varme<br>fotografier</h1>
+  <p class="hero-tagline">PORTRETT &middot; NATUR &middot; REISE &middot; ARKITEKTUR</p>
+  <a href="#galleri" class="btn">Se galleriet</a>
+</section>
+
+<div class="dot-divider"><span></span></div>
+
+<section class="hero-duo">
+  <div class="hero-duo-img" style="background-image: url('images/gallery/photo-6.svg');"></div>
+  <div class="hero-duo-img" style="background-image: url('images/gallery/photo-3.svg');"></div>
+</section>
+
+<section class="nav-cards">
+  <div class="nav-card">
+    <h3>Portefølje</h3>
+    <p>Se et utvalg av bilder</p>
+    <a href="#galleri" class="btn btn-small">Se mer</a>
+  </div>
+  <div class="nav-card">
+    <h3>Om meg</h3>
+    <p>Historien bak kameraet</p>
+    <a href="#om" class="btn btn-small">Se mer</a>
+  </div>
+  <div class="nav-card">
+    <h3>Tjenester</h3>
+    <p>Hva jeg kan tilby deg</p>
+    <a href="#tjenester" class="btn btn-small">Se mer</a>
+  </div>
+</section>
+
+<div class="dot-divider"><span></span></div>
+
+<section class="cta-band">
+  <p class="section-eyebrow">Klar for å skape noe sammen?</p>
+  <h2>Ta kontakt</h2>
+  <a href="#kontakt" class="btn">Kontakt meg</a>
+</section>
+
+<section class="gallery" id="galleri">
+  <div class="section-heading">
+    <p class="section-eyebrow">Portefølje</p>
+    <h2>Galleri</h2>
+  </div>
+
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-filter="all">Alle</button>
+    <button class="filter-btn" data-filter="Portrett">Portrett</button>
+    <button class="filter-btn" data-filter="Natur">Natur</button>
+    <button class="filter-btn" data-filter="Landskap">Landskap</button>
+    <button class="filter-btn" data-filter="Arkitektur">Arkitektur</button>
+    <button class="filter-btn" data-filter="Reise">Reise</button>
+    <button class="filter-btn" data-filter="Gate">Gate</button>
+    <button class="filter-btn" data-filter="Dyreliv">Dyreliv</button>
+    <button class="filter-btn" data-filter="Svart-hvitt">Svart-hvitt</button>
+  </div>
+
+  <div class="grid" id="grid">
+    <!-- Grid items injected by js/main.js -->
+  </div>
+</section>
+
+<section class="about" id="om">
+  <div class="about-image">
+    <img src="images/about.svg" alt="Portrettbilde av fotografen" loading="lazy">
+  </div>
+  <div class="about-text">
+    <p class="section-eyebrow">Om meg</p>
+    <h2>Hei, jeg heter Ditt Navn</h2>
+    <p>
+      Jeg er en fotograf med base i Norge, med lidenskap for å fange lys,
+      øyeblikk og stemninger som er lette å gå glipp av. Fra stille
+      landskap til levende portretter — jeg elsker historiene et bilde
+      kan fortelle uten et eneste ord.
+    </p>
+    <p>
+      Denne teksten er en plassholder. Bytt den ut med din egen historie:
+      bakgrunn, utstyr du bruker, stil og hva som inspirerer deg til å
+      ta bilder.
+    </p>
+    <ul class="about-facts">
+      <li><strong>5+</strong> år med erfaring</li>
+      <li><strong>200+</strong> fornøyde kunder</li>
+      <li><strong>30+</strong> steder fotografert</li>
+    </ul>
+  </div>
+</section>
+
+<section class="services" id="tjenester">
+  <div class="section-heading">
+    <p class="section-eyebrow">Hva jeg tilbyr</p>
+    <h2>Tjenester</h2>
+  </div>
+  <div class="services-grid">
+    <div class="service">
+      <h3>Portrett</h3>
+      <p>Naturlige portretter som fanger personligheten din, ute eller i studio.</p>
+    </div>
+    <div class="service">
+      <h3>Bryllup &amp; familie</h3>
+      <p>Dokumentasjon av de store øyeblikkene, uten regi og med varme.</p>
+    </div>
+    <div class="service">
+      <h3>Reise &amp; landskap</h3>
+      <p>Fine-art trykk og fortellende bilder fra reiser og naturopplevelser.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="kontakt">
+  <div class="section-heading light">
+    <p class="section-eyebrow">Ta kontakt</p>
+    <h2>La oss skape noe sammen</h2>
+    <p class="contact-sub">Har du et oppdrag i tankene, eller vil du bare si hei? Send meg en melding.</p>
+  </div>
+
+  <form class="contact-form" id="contactForm">
+    <div class="form-row">
+      <div class="form-group">
+        <label for="name">Navn</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-post</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="subject">Emne</label>
+      <input type="text" id="subject" name="subject">
+    </div>
+    <div class="form-group">
+      <label for="message">Melding</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn">Send melding</button>
+    <p class="form-note" id="formNote"></p>
+  </form>
+
+  <div class="socials">
+    <a href="#" aria-label="Instagram">Instagram</a>
+    <a href="#" aria-label="Facebook">Facebook</a>
+    <a href="mailto:din.epost@eksempel.no" aria-label="E-post">din.epost@eksempel.no</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <nav class="footer-nav">
+    <a href="#top">Hjem</a>
+    <a href="#galleri">Galleri</a>
+    <a href="#om">Info</a>
+    <a href="#tjenester">Tjenester</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+  <div class="footer-socials">
+    <a href="#" aria-label="Facebook">f</a>
+    <a href="#" aria-label="Instagram">ig</a>
+    <a href="#" aria-label="Pinterest">p</a>
+  </div>
+  <p class="footer-name">Ditt_Studio</p>
+  <p class="footer-copy">&copy; <span id="year"></span> Ditt Navn Fotografi. Alle rettigheter forbeholdt.</p>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Lukk">&times;</button>
+  <button class="lightbox-prev" id="lightboxPrev" aria-label="Forrige">&#10094;</button>
+  <img src="" alt="" id="lightboxImg">
+  <button class="lightbox-next" id="lightboxNext" aria-label="Neste">&#10095;</button>
+  <p class="lightbox-caption" id="lightboxCaption"></p>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
