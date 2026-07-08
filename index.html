@@ -13,10 +13,14 @@
 <body>
 
 <header class="site-header" id="header">
-  <a href="#top" class="logo">Ditt Navn</a>
-  <nav class="nav" id="nav">
+  <nav class="nav nav-left">
+    <a href="#top">Hjem</a>
     <a href="#galleri">Galleri</a>
-    <a href="#om">Om meg</a>
+    <a href="#om">Info</a>
+  </nav>
+  <a href="#top" class="logo">Ditt_Studio</a>
+  <nav class="nav nav-right" id="nav">
+    <a href="#galleri">Portefølje</a>
     <a href="#kontakt">Kontakt</a>
   </nav>
   <button class="nav-toggle" id="navToggle" aria-label="Åpne meny" aria-expanded="false">
@@ -24,16 +28,59 @@
   </button>
 </header>
 
-<section class="hero" id="top">
-  <div class="hero-bg" style="background-image: url('images/hero.svg');"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <p class="hero-eyebrow">Fotograf</p>
-    <h1>Ditt Navn</h1>
-    <p class="hero-tagline">Jeg fanger øyeblikk som forteller historier</p>
-    <a href="#galleri" class="btn">Se galleriet</a>
+<div class="mobile-nav" id="mobileNav">
+  <a href="#top">Hjem</a>
+  <a href="#galleri">Galleri</a>
+  <a href="#om">Info</a>
+  <a href="#kontakt">Kontakt</a>
+</div>
+
+<section class="hero-grid" id="top">
+  <div class="hero-grid-img" style="background-image: url('images/gallery/photo-1.svg');"></div>
+  <div class="hero-grid-img" style="background-image: url('images/gallery/photo-7.svg');"></div>
+  <div class="hero-grid-img" style="background-image: url('images/gallery/photo-4.svg');"></div>
+</section>
+
+<div class="dot-divider"><span></span></div>
+
+<section class="hero-text">
+  <p class="hero-eyebrow">Basert i Norge, tilgjengelig for oppdrag overalt</p>
+  <h1>Ekte, varme<br>fotografier</h1>
+  <p class="hero-tagline">PORTRETT &middot; NATUR &middot; REISE &middot; ARKITEKTUR</p>
+  <a href="#galleri" class="btn">Se galleriet</a>
+</section>
+
+<div class="dot-divider"><span></span></div>
+
+<section class="hero-duo">
+  <div class="hero-duo-img" style="background-image: url('images/gallery/photo-6.svg');"></div>
+  <div class="hero-duo-img" style="background-image: url('images/gallery/photo-3.svg');"></div>
+</section>
+
+<section class="nav-cards">
+  <div class="nav-card">
+    <h3>Portefølje</h3>
+    <p>Se et utvalg av bilder</p>
+    <a href="#galleri" class="btn btn-small">Se mer</a>
   </div>
-  <a href="#galleri" class="scroll-hint" aria-label="Scroll ned">↓</a>
+  <div class="nav-card">
+    <h3>Om meg</h3>
+    <p>Historien bak kameraet</p>
+    <a href="#om" class="btn btn-small">Se mer</a>
+  </div>
+  <div class="nav-card">
+    <h3>Tjenester</h3>
+    <p>Hva jeg kan tilby deg</p>
+    <a href="#tjenester" class="btn btn-small">Se mer</a>
+  </div>
+</section>
+
+<div class="dot-divider"><span></span></div>
+
+<section class="cta-band">
+  <p class="section-eyebrow">Klar for å skape noe sammen?</p>
+  <h2>Ta kontakt</h2>
+  <a href="#kontakt" class="btn">Kontakt meg</a>
 </section>
 
 <section class="gallery" id="galleri">
@@ -85,6 +132,27 @@
   </div>
 </section>
 
+<section class="services" id="tjenester">
+  <div class="section-heading">
+    <p class="section-eyebrow">Hva jeg tilbyr</p>
+    <h2>Tjenester</h2>
+  </div>
+  <div class="services-grid">
+    <div class="service">
+      <h3>Portrett</h3>
+      <p>Naturlige portretter som fanger personligheten din, ute eller i studio.</p>
+    </div>
+    <div class="service">
+      <h3>Bryllup &amp; familie</h3>
+      <p>Dokumentasjon av de store øyeblikkene, uten regi og med varme.</p>
+    </div>
+    <div class="service">
+      <h3>Reise &amp; landskap</h3>
+      <p>Fine-art trykk og fortellende bilder fra reiser og naturopplevelser.</p>
+    </div>
+  </div>
+</section>
+
 <section class="contact" id="kontakt">
   <div class="section-heading light">
     <p class="section-eyebrow">Ta kontakt</p>
@@ -123,7 +191,20 @@
 </section>
 
 <footer class="site-footer">
-  <p>&copy; <span id="year"></span> Ditt Navn Fotografi. Alle rettigheter forbeholdt.</p>
+  <nav class="footer-nav">
+    <a href="#top">Hjem</a>
+    <a href="#galleri">Galleri</a>
+    <a href="#om">Info</a>
+    <a href="#tjenester">Tjenester</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+  <div class="footer-socials">
+    <a href="#" aria-label="Facebook">f</a>
+    <a href="#" aria-label="Instagram">ig</a>
+    <a href="#" aria-label="Pinterest">p</a>
+  </div>
+  <p class="footer-name">Ditt_Studio</p>
+  <p class="footer-copy">&copy; <span id="year"></span> Ditt Navn Fotografi. Alle rettigheter forbeholdt.</p>
 </footer>
 
 <div class="lightbox" id="lightbox">

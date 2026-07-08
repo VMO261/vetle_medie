@@ -102,14 +102,14 @@ document.addEventListener('keydown', (e) => {
 
 // Mobile nav toggle
 const navToggle = document.getElementById('navToggle');
-const nav = document.getElementById('nav');
+const mobileNav = document.getElementById('mobileNav');
 navToggle.addEventListener('click', () => {
-  const isOpen = nav.classList.toggle('open');
+  const isOpen = mobileNav.classList.toggle('open');
   navToggle.setAttribute('aria-expanded', isOpen);
 });
-nav.querySelectorAll('a').forEach((link) => {
+mobileNav.querySelectorAll('a').forEach((link) => {
   link.addEventListener('click', () => {
-    nav.classList.remove('open');
+    mobileNav.classList.remove('open');
     navToggle.setAttribute('aria-expanded', 'false');
   });
 });
