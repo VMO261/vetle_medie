@@ -1,16 +1,16 @@
 const photos = [
-  { src: 'images/gallery/photo-1.svg', category: 'Portrett', caption: 'Portrett i naturlig lys' },
-  { src: 'images/gallery/photo-2.svg', category: 'Natur', caption: 'Skog i morgentåke' },
-  { src: 'images/gallery/photo-3.svg', category: 'Arkitektur', caption: 'Linjer og skygger' },
-  { src: 'images/gallery/photo-4.svg', category: 'Reise', caption: 'Gatehjørne, sen kveld' },
-  { src: 'images/gallery/photo-5.svg', category: 'Svart-hvitt', caption: 'Kontraster i monokrom' },
-  { src: 'images/gallery/photo-6.svg', category: 'Portrett', caption: 'Nærbilde, mykt lys' },
-  { src: 'images/gallery/photo-7.svg', category: 'Landskap', caption: 'Fjell ved solnedgang' },
-  { src: 'images/gallery/photo-8.svg', category: 'Gate', caption: 'Liv i byen' },
-  { src: 'images/gallery/photo-9.svg', category: 'Dyreliv', caption: 'Møte med naturen' },
-  { src: 'images/gallery/photo-10.svg', category: 'Natur', caption: 'Vann og stein' },
-  { src: 'images/gallery/photo-11.svg', category: 'Arkitektur', caption: 'Geometri i betong' },
-  { src: 'images/gallery/photo-12.svg', category: 'Portrett', caption: 'Stille øyeblikk' },
+  { src: 'images/gallery/photo-1.svg', category: 'Action', caption: 'Full fart på bane' },
+  { src: 'images/gallery/photo-2.svg', category: 'Statisk', caption: 'Rent studio-oppsett' },
+  { src: 'images/gallery/photo-3.svg', category: 'Rollers', caption: 'Rulling i bykjernen' },
+  { src: 'images/gallery/photo-4.svg', category: 'Action', caption: 'Drift gjennom svingen' },
+  { src: 'images/gallery/photo-5.svg', category: 'Statisk', caption: 'Detaljer i lakken' },
+  { src: 'images/gallery/photo-6.svg', category: 'Rollers', caption: 'Rulling ved solnedgang' },
+  { src: 'images/gallery/photo-7.svg', category: 'Action', caption: 'Racing på strekk' },
+  { src: 'images/gallery/photo-8.svg', category: 'Statisk', caption: 'Front i kveldslys' },
+  { src: 'images/gallery/photo-9.svg', category: 'Rollers', caption: 'Rulling på landevei' },
+  { src: 'images/gallery/photo-10.svg', category: 'Action', caption: 'Sladd i grusen' },
+  { src: 'images/gallery/photo-11.svg', category: 'Statisk', caption: 'Profilbilde, tomt bakgrunn' },
+  { src: 'images/gallery/photo-12.svg', category: 'Rollers', caption: 'Rulling i tunnel' },
 ];
 
 const grid = document.getElementById('grid');
